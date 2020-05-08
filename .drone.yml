@@ -1,0 +1,7 @@
+kind: pipeline
+name: default
+
+- name: build demo
+  image: golang
+  commands:
+  - go build
